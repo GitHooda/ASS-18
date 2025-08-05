@@ -1,0 +1,44 @@
+/* Base styles */
+.app {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.light-mode button {
+  background-color: #333;
+  color: white;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+.dark-mode button {
+  background-color: #fff;
+  color: #121212;
+}
